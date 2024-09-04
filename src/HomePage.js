@@ -2,14 +2,8 @@ import './Home.css';
 import ReactDOM from 'react-dom/client';
 import React from 'react';
 import SearchBar from './components/SearchBar';
-import { styled } from 'styled-components';
+import TopBar from './TopBar';
 
-const MyDiv = styled.div`
-    cursor: pointer;
-    &:hover {
-        text-decoration: underline;
-    }
-`;
 
 
 function Home() {
@@ -18,12 +12,9 @@ function Home() {
 
   return (
     <div>
-    <div className='topBar'>
-    <MyDiv className="topItem">Job Aggregator</MyDiv>
-    <MyDiv className='topItem'>Search</MyDiv>
-    </div>
+      <TopBar />
     <div className='Home'>
-    <div className='text'><p>Find All the Pre-Requisites <br /> of courses offered at UTSC</p></div>
+    <div className='text'>Find All the Jobs Scraped from Websites</div>
     <div className='bar'><SearchBar/></div>
   </div>
   </div>
