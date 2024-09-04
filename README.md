@@ -29,7 +29,7 @@ Then you can run the django server by simply typing
 This will kickstart the backend API from where the frontend gets the data
 
 Then navigate to web-app/my-app and run 
-```npm start``
+```npm start```
 Then you can visit your website on "localhost:300"
 
 ## Preview
