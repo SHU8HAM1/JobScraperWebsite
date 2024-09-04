@@ -17,7 +17,10 @@ In addition, please download Axios using
 ```npm install axios@latest```
 
 and Django REST Framework, Virtual Environment(Optional), BeautifulSoup
+
 ```pip install "Your dependency"```
+
+
 The name for the dependencies listed above is djangorestframework, venv, bs4, respectively.
 
 ## How to Run the project
